@@ -9,6 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class BookService {
 
+  //private baseUrl = "http://localhost:8080/api/v1/books?size=100";
   private baseUrl = "http://localhost:8080/api/v1/books";
 
   constructor(private httpClient: HttpClient) { }
