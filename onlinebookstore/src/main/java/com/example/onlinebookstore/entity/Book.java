@@ -22,7 +22,6 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-
 public class Book {
 	
 	@Id
